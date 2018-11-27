@@ -63,6 +63,3 @@ pytest-x:
 reformat:
 	make isort
 	make black-reformat
-
-sanity-check:
-	python -c 'import supriya; server = supriya.Server().boot(); print(server); server.quit()'
